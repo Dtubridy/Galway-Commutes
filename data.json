@@ -83,7 +83,7 @@
             "children": [
               {
                 "data": {
-                  "id": "(70)[7,15,16] (65)[4,7,15,16,17)"
+                  "id": "(70)[7,15,16] -> [17,7,15,16] -> Rahoon, Dangan, Newcastle, Nuns, Island;  (65)[4,7,15,16,17) ->[17,4,17,7,15,16] ->  Rahoon, Barna, Rahoon, Dangan, Newcastle, Nuns Island"
                 }
               }
             ]
@@ -95,7 +95,7 @@
             "children": [
               {
                 "data": {
-                  "id": "(53)[5,7,12,15,17,20]"
+                  "id": "(53)[5,7,12,15,17,20] -> [17,7,15,12,20,12,5] -> Rahoon, Dangan, Newcastle, Menlough, St. Nicholas, Menlough, Castlegar"
                 }
               }
             ]
@@ -107,7 +107,7 @@
             "children": [
               {
                 "data": {
-                  "id": "(22)[4,10,19] (18)[4,10,17,19]"
+                  "id": "(22)[4,10,17,19] -> [17,4,10,19] -> Rahoon, Barna, Knocknacarragh, Rockbarton"
                 }
               }
             ]
@@ -120,7 +120,7 @@
             "children": [
               {
                 "data": {
-                  "id": "(32)[7,12,15,17,20]"
+                  "id": "(32)[7,12,15,17,20] -> [17,7,15,12,20,12] -> Rahoon, Dangan, Newcastle, Menlough, St. Nicholas, Menlough"
                 }
               }
             ]
@@ -133,7 +133,7 @@
             "children": [
               {
                 "data": {
-                  "id": "(25)[4,17]"
+                  "id": "(25)[4,17] -> [17,4] -> Rahoon, Barna"
                 }
               }
             ]
@@ -148,12 +148,12 @@
         "children": [
           {
             "data": {
-              "id": "Barna(140)"
+              "id": "Barna(234)"
             },
             "children": [
               {
                 "data": {
-                  "id": "()[1,4,6,8,10,19,21]"
+                  "id": "(140)[1,4,6,8,10,19,21] -> [1,8,6,21,19,20,4] -> Wellpark, Eyre Square, Claddagh, Salthill, Rockbarton, St.Nicholas, Barna"
                 }
               }
             ]
@@ -165,7 +165,7 @@
             "children": [
               {
                 "data": {
-                  "id": "(46)[1,5,12]"
+                  "id": "(46)[1,5,12] -> [1,5,12] -> Wellpark, Castlegar, Menlough"
                 }
               }
             ]
@@ -177,7 +177,7 @@
             "children": [
               {
                 "data": {
-                  "id": "(16)[1,8]"
+                  "id": "(16)[1,8] -> [1,8] -> Wellpark, Eyre Square"
                 }
               }
             ]
@@ -189,7 +189,7 @@
             "children": [
               {
                 "data": {
-                  "id": "(8)[1,2,5,9,13]"
+                  "id": "(8)[1,2,5,9,13] -> [1,5,13,2,9] ->  Wellpark, Castlegar, Mervue, Ballybaan, Ballintemple"
                 }
               }
             ]
@@ -201,7 +201,7 @@
             "children": [
               {
                 "data": {
-                  "id": "(7)[1,5,12,15,20,22]"
+                  "id": "(7)[1,5,12,15,20,22] -> [1,5,12,20,12,15,22] -> Wellpark, Castlegar, Menlough, St. Nicholas, Menlough, Newcastle, Shantalla"
                 }
               }
             ]
@@ -220,7 +220,7 @@
             "children": [
               {
                 "data": {
-                  "id": "(54)[4,5,12,13,15,17,20]"
+                  "id": "(54)[4,5,12,13,15,17,20] -> [3,13,5,12,20,12,15,17,4] -> Ballybrit, Mervue, Castlegar, Menlough, St.Nicholas, Menlough, Newcastle, Rahoon, Barna"
                 }
               }
             ]
@@ -232,7 +232,7 @@
             "children": [
               {
                 "data": {
-                  "id": "(82)[2,3,5,7,12,13,15,20]"
+                  "id": "(82)[2,3,5,7,12,13,15,20] -> [3,2,13,5,12,20,12,15,7] -> Ballybrit, Ballybaan, Mervue, Castlegar, Menlough, St.Nicholas, Menlough, Newcastle, Dangan"
                 }
               }
             ]
@@ -244,7 +244,7 @@
             "children": [
               {
                 "data": {
-                  "id": "(30)[1,2,3,8,9,13]"
+                  "id": "(30)[1,2,3,8,9,13] -> [3,9,2,13,1,8] -> Ballybrit, Ballintemple, Ballybaan, Mervue, Wellpark, Eyre Square"
                 }
               }
             ]
@@ -256,12 +256,11 @@
             "children": [
               {
                 "data": {
-                  "id": "(6)[1,2,3,6,8,13,21]"
+                  "id": "(6)[1,2,3,6,8,13,21] -> [3,2,13,1,8,6,21] -> Ballybrit, Ballybaan, Mervue, Wellpark, Eyre Square, Claddagh, Salthill"
                 }
               }
             ]
           },
-
           {
             "data": {
               "id": "Menlough(19)"
@@ -269,7 +268,7 @@
             "children": [
               {
                 "data": {
-                  "id": "(12)[2,3,5,9,12,13]"
+                  "id": "(13)[2,3,5,9,12,13] ->[3,9,2,13,5,12] -> Ballybrit, Menlough, Ballybaan, Mervue, Castlgar, Menlough"
                 }
               }
             ]
@@ -288,7 +287,7 @@
             "children": [
               {
                 "data": {
-                  "id": "(22)[5,23,9,12,15,20,21,22]"
+                  "id": "(22)[5,23,9,12,15,20,21,22] -> [9,5,12,20,12,15,22,23,21] -> Ballintemple, Castlegar, Menlough, St. Nicholas, Menlough, Newcastle, Shantalla, Taylors Hill, Salthill"
                 }
               }
             ]
@@ -300,7 +299,7 @@
             "children": [
               {
                 "data": {
-                  "id": "(23)[2,3,5,9,13]"
+                  "id": "(23)[2,3,5,9,13] -> [9,3,2,15,5,20] -> Ballintemple, Ballybrit, Ballybaan, Newcastle, Castlgar, St. Nicholas"
                 }
               }
             ]
@@ -312,18 +311,18 @@
             "children": [
               {
                 "data": {
-                  "id": "(12)[1,2,3,8,9,13] (12)[1,2,3,8,13]"
+                  "id": "(24)[1,2,3,8,9,13] -> [9,3,2,13,1,8] -> Ballintemple, Ballybrit, Ballybaan, Mervue, Wellpark, Eyre Square"
                 }
               }
             ]
           }, {
             "data": {
-              "id": "Ballybaan(23)"
+              "id": "Ballybaan(32)"
             },
             "children": [
               {
                 "data": {
-                  "id": "(19)[2,3,9]"
+                  "id": "(19)[2,3,9] -> [9,3,2] -> Ballintemple -> Ballybrit, Ballybaan"
                 }
               }
             ]
@@ -336,7 +335,7 @@
             "children": [
               {
                 "data": {
-                  "id": "(18)[1,2,3,6,8,9,13]"
+                  "id": "(18)[1,2,3,6,8,9,13] -> [9,3,2,13,1,8,6] -> Ballintemple, Ballybrit, Ballybaan, Mervue, Wellpark, Eyre Square, Claddagh"
                 }
               }
             ]
